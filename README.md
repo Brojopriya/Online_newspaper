@@ -13,15 +13,15 @@ An online news portal built using Django, featuring:
 
 
 🚀 Quick Start Guide
-1. Clone the Repository
+# 1. Clone the Repository
 bash
 Copy code
 git clone https://github.com/yourusername/online-newspaper.git
 cd online-newspaper
-2. Create & Activate Virtual Environment
+# 2. Create & Activate Virtual Environment
 bash
-Copy code
 # Create virtual environment
+
 python -m venv venv
 
 # Activate it
@@ -29,23 +29,24 @@ python -m venv venv
 source venv/bin/activate
 # For Windows
 venv\Scripts\activate
-3. Install Required Packages
+# 3. Install Required Packages
 bash
-Copy code
+
+
 pip install -r requirements.txt
-4. Apply Database Migrations
+# 4. Apply Database Migrations
 bash
 Copy code
 python manage.py migrate
-5. Create Admin Superuser (Optional)
+# 5. Create Admin Superuser (Optional)
 bash
 Copy code
 python manage.py createsuperuser
-6. Start the Development Server
+# 6. Start the Development Server
 bash
 Copy code
 python manage.py runserver
-7. Open the App
+# 7. Open the App
 Visit 👉 http://127.0.0.1:8000/
 
 🛠 Features

@@ -9,4 +9,8 @@ urlpatterns = [
     path('search/', views.search_articles, name='search_articles'),
     path('category/<str:category_name>/', views.articles_by_category, name='articles_by_category'),
     path('newsletter/signup/', views.newsletter_signup, name='newsletter_signup'),
+    
+    
+
+
 ]

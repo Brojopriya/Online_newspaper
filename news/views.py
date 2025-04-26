@@ -80,3 +80,4 @@ def about_us(request):
 # Contact Page
 def contact(request):
     return render(request, 'news/contact.html')
+

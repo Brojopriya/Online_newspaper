@@ -9,31 +9,9 @@ An online news portal built using Django, featuring:
 
 📬 Newsletter subscription
 
-📱 Responsive layout (inspired by The Daily Star)
 
-📂 Project Structure
-arduino
-Copy code
-newspaper_project/
-├── manage.py
-├── newspaper_project/
-│   ├── settings.py
-│   └── urls.py
-├── news/
-│   ├── admin.py
-│   ├── models.py
-│   ├── urls.py
-│   ├── views.py
-│   ├── migrations/
-│   ├── static/
-│   └── templates/
-│       ├── home.html
-│       ├── article_detail.html
-│       ├── search_result.html
-│       ├── category.html
-│       ├── about.html
-│       └── contact.html
-└── requirements.txt
+
+
 🚀 Quick Start Guide
 1. Clone the Repository
 bash
